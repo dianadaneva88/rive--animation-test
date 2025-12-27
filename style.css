@@ -68,10 +68,6 @@ footer {
         gap: 30px;
     }
 
-    .container {
-        display: flex;
-        gap: 20px;
-    }
 
     .card {
         flex: 1;
