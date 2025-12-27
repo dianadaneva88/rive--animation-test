@@ -1,0 +1,60 @@
+/* Основни стилове (mobile first) */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    padding: 15px;
+}
+
+.card {
+    background: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* 📱➡️💻 За по-големи екрани */
+@media (min-width: 768px) {
+
+    nav {
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .container {
+        display: flex;
+        gap: 20px;
+    }
+
+    .card {
+        flex: 1;
+        margin-bottom: 0;
+    }
+}
